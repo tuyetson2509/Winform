@@ -69,7 +69,6 @@ namespace WindowsFormsApp1
                                     details.ssr.Add(value);
                                 }
                         }
-                        //123
                         client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
                         var requestData = new
                         {
